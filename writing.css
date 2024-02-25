@@ -1,0 +1,36 @@
+
+
+.content {
+position: relative;
+width: 1200px;
+height: 300px;
+margin: 200px auto;
+}
+
+.content .box {
+    position: relative;
+    width: calc(400px - 3px);
+    height: calc(300px - 30px);
+    float: left;
+ background-image: var(hear);
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    top: -525px;
+    right: -150px;
+ left: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.content .box .hear {
+    position: absolute;
+    background: url(wolf.jpg);
+}
+
+.content .box .grave a{
+    position: absolute;
+    background: url(wolf);
+}
